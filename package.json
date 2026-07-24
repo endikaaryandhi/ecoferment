@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "bun ./src/index.html",
-    "build": "bun run build.js",
-    "start": "bun run serve.js"
-  },
+"scripts": {
+  "dev": "bun --hot ./dev.js",
+  "build": "bun run build.js",
+  "start": "bun run serve.js"
+},
   "devDependencies": {
     "bun-plugin-tailwind": "^0.0.15",
     "tailwindcss": "^4.1.13"
