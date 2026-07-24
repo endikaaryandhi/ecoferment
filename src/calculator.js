@@ -18,9 +18,9 @@ const format = (value, decimals) =>
 
 function parseWeight(raw) {
   const value = Number.parseFloat(String(raw).trim().replace(",", "."));
-  if (!Number.isFinite(value)) return { ok: false, message: "Masukkan berat buah terlebih dahulu." };
-  if (value <= 0) return { ok: false, message: "Berat buah harus lebih besar dari 0 gram." };
-  if (value > MAX_WEIGHT) return { ok: false, message: "Berat buah terlalu besar. Gunakan nilai di bawah 1.000.000 gram." };
+  if (!Number.isFinite(value)) return { ok: false, message: "Masukkan berat kulit buah terlebih dahulu." };
+  if (value <= 0) return { ok: false, message: "Berat kulit buah harus lebih besar dari 0 gram." };
+  if (value > MAX_WEIGHT) return { ok: false, message: "Berat kulit buah terlalu besar. Gunakan nilai di bawah 1.000.000 gram." };
   return { ok: true, value };
 }
 
