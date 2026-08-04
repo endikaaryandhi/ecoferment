@@ -23,6 +23,7 @@ src/
   styles.css      @theme Tailwind v4 (warna, tipografi, spacing, radius)
   calculator.js   logika: validasi input, error inline, animasi hasil
 build.js          Bun.build + bun-plugin-tailwind
+dev.js            dev server + HMR, sekaligus penyaji ./public
 serve.js          Bun.serve statis dengan proteksi path traversal
 bunfig.toml       registrasi plugin Tailwind untuk dev server
 ```
@@ -39,3 +40,4 @@ bunfig.toml       registrasi plugin Tailwind untuk dev server
 - Bun HTML bundler & fullstack dev server — <https://bun.sh/docs/bundler/html>
 - Tailwind CSS v4 theme variables — <https://tailwindcss.com/docs/theme>
 - OWASP Path Traversal — <https://owasp.org/www-community/attacks/Path_Traversal>
+# EcoFerment-Jendi
